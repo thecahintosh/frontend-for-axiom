@@ -12,7 +12,7 @@ export default function HomePage() {
       description: "jnkjndkjndwq",
       price: "0.5 ETH",
       rating: 4.8,
-      category: "kjn",
+      category: "Analytics",
       image: "/placeholder.svg?height=200&width=300",
     },
     {
