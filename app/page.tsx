@@ -8,26 +8,26 @@ export default function HomePage() {
   const featuredAgents = [
     {
       id: 1,
-      name: "DataMiner Pro",
-      description: "Advanced data analysis and pattern recognition",
+      name: "Abdjasklj",
+      description: "jnkjndkjndwq",
       price: "0.5 ETH",
       rating: 4.8,
-      category: "Analytics",
+      category: "kjn",
       image: "/placeholder.svg?height=200&width=300",
     },
     {
       id: 2,
-      name: "CodeAssist AI",
-      description: "Intelligent code generation and debugging",
+      name: "mnkjdcn",
+      description: "kjnscd",
       price: "0.3 ETH",
       rating: 4.9,
-      category: "Development",
+      category: "nkljncsd",
       image: "/placeholder.svg?height=200&width=300",
     },
     {
       id: 3,
-      name: "TradingBot Elite",
-      description: "Automated cryptocurrency trading strategies",
+      name: "Tkjnkcwjdndjwnkdjsn",
+      description: "kjnkdjsn",
       price: "1.2 ETH",
       rating: 4.7,
       category: "Finance",
@@ -37,13 +37,12 @@ export default function HomePage() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-900 via-purple-800 to-pink-800">
-      {/* Navigation */}
       <nav className="border-b border-purple-700/50 backdrop-blur-sm bg-purple-900/20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-2">
               <Bot className="h-8 w-8 text-pink-400" />
-              <span className="text-2xl font-bold text-white">AgentHub</span>
+              <span className="text-2xl font-bold text-white">Axiom</span>
             </div>
             <div className="hidden md:flex items-center space-x-8">
               <Link href="/marketplace" className="text-purple-200 hover:text-white transition-colors">
@@ -60,8 +59,6 @@ export default function HomePage() {
           </div>
         </div>
       </nav>
-
-      {/* Hero Section */}
       <section className="relative overflow-hidden py-20 px-4">
         <div className="max-w-7xl mx-auto">
           <div className="text-center">
@@ -72,9 +69,7 @@ export default function HomePage() {
               </span>
             </h1>
             <p className="text-xl text-purple-200 mb-8 max-w-3xl mx-auto">
-              Discover, deploy, and monetize AI agents on the blockchain. The future of artificial intelligence is
-              decentralized.
-            </p>
+              Discover, deploy, and monetize AI agents on the blockchain.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="bg-pink-600 hover:bg-pink-700 text-white">
                 <Link href="/marketplace" className="flex items-center">
@@ -88,15 +83,13 @@ export default function HomePage() {
           </div>
         </div>
 
-        {/* Decorative Elements */}
         <div className="absolute top-20 left-10 w-32 h-32 bg-pink-500/20 rounded-full blur-xl"></div>
         <div className="absolute bottom-20 right-10 w-48 h-48 bg-purple-500/20 rounded-full blur-xl"></div>
       </section>
 
-      {/* Features Section */}
       <section className="py-20 px-4">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-4xl font-bold text-white text-center mb-12">Why Choose AgentHub?</h2>
+          <h2 className="text-4xl font-bold text-white text-center mb-12">Why Choose Axiom?</h2>
           <div className="grid md:grid-cols-3 gap-8">
             <Card className="bg-purple-800/50 border-purple-600 backdrop-blur-sm">
               <CardContent className="p-6 text-center">
@@ -126,8 +119,7 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
-      {/* Featured Agents */}
+      
       <section className="py-20 px-4">
         <div className="max-w-7xl mx-auto">
           <div className="flex justify-between items-center mb-12">
@@ -170,8 +162,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
-      {/* Stats Section */}
       <section className="py-20 px-4 bg-purple-900/50">
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-4 gap-8 text-center">
@@ -194,15 +184,13 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
-      {/* Footer */}
       <footer className="border-t border-purple-700/50 py-12 px-4">
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
               <div className="flex items-center space-x-2 mb-4">
                 <Bot className="h-6 w-6 text-pink-400" />
-                <span className="text-xl font-bold text-white">AgentHub</span>
+                <span className="text-xl font-bold text-white">Axiom</span>
               </div>
               <p className="text-purple-200">The premier decentralized marketplace for AI agents.</p>
             </div>
@@ -250,7 +238,7 @@ export default function HomePage() {
             </div>
           </div>
           <div className="border-t border-purple-700/50 mt-8 pt-8 text-center text-purple-200">
-            <p>&copy; 2024 AgentHub. All rights reserved.</p>
+            <p>&copy; 2025 Axiom. All rights reserved.</p>
           </div>
         </div>
       </footer>
